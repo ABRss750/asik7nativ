@@ -33,7 +33,7 @@ struct ContentView: View {
                         .keyboardType(.numberPad)
                     
                     if showError{
-                        Text("Please enter valid name and email")
+                        Text("Please enter valid name,email and age")
                             .foregroundColor(.red)
                     }
                     Button("Save"){
