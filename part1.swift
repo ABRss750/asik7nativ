@@ -34,7 +34,6 @@ struct ContentView: View {
                             let userProfile = UserProfile(
                                 name: name,
                                 email: email,
-                                age: Int(ageText)!
                             )
                             print("Saved user: \(userProfile)")
                         } else{
